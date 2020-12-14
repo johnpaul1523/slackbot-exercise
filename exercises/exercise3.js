@@ -3,7 +3,7 @@ module.exports.ACTIVATE_BOT = true;
 
 module.exports.botScripts = [
   {
-    label: 'Hello Greeting',
+    label: 'Greeting',
     prompt: 'Hello',
     handler: function () {
       return 'Hello, welcome to JP\'s baseball info bot. Please enter your name to get started.';
